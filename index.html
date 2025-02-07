@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Animate.css for animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Custom CSS -->
+    <style>
+      .hero-section {
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url("your-background.jpg") center/cover;
+      }
+
+      .skill-bar {
+        transition: width 2s ease-in-out;
+      }
+
+      .project-card {
+        transition: transform 0.3s ease;
+      }
+
+      .project-card:hover {
+        transform: translateY(-10px);
+      }
+
+      .nav-link.active {
+        border-bottom: 2px solid #0d6efd;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Thor Sophanith</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      style="background-image: url(./bg.jpg)"
+      class="hero-section text-white d-flex align-items-center"
+    >
+      <div class="container text-center animate__animated animate__fadeIn">
+        <h1 class="display-4">Front-End Developer</h1>
+        <p class="lead">Creating beautiful and responsive web experiences</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 animate__animated">PROFESSIONAL SUMMARY</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="./pro1.jpg"
+              alt="Profile"
+              class="rounded mx-auto d-block img-fluid rounded-circle shadow"
+              style="width: 200px"
+            />
+          </div>
+          <div class="col-md-6">
+            <p class="lead">
+              I am applying for the above position with your company as it is a
+              role i can perform exceptionally well to a high standard.
+            </p>
+            <p>
+              I am currently a student at Royal University of Phnom Penh,
+              majoring in computer science. Throughout my academic career, I
+              have developed a solid understanding of programming languages such
+              as CSS, HTML, JavaScript, Tailwind, Bootstrap, as well as
+              frameworks like React Js and Next Js.
+            </p>
+            <p>
+              If I success in my application, I assure you that i will perform
+              all my duties to an exemplary standard to quickly become a team
+              member who contributes positively to the Company’s objectives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Skills</h2>
+        <div class="skill-item mb-4 p-2">
+          <h5>HTML</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary skill-bar"
+              role="progressbar"
+              style="width: 0%"
+              aria-valuenow="95"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              95%
+            </div>
+          </div>
+        </div>
+        <div class="skill-item mb-4 p-2">
+          <h5>CSS</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary skill-bar"
+              role="progressbar"
+              style="width: 0%"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              80%
+            </div>
+          </div>
+        </div>
+        <div class="skill-item mb-4 p-2">
+          <h5>BOOTSTRAP</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary skill-bar"
+              role="progressbar"
+              style="width: 0%"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              60%
+            </div>
+          </div>
+        </div>
+        <div class="skill-item mb-4 p-2">
+          <h5>TAILWIND CSS</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary skill-bar"
+              role="progressbar"
+              style="width: 0%"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              90%
+            </div>
+          </div>
+        </div>
+        <div class="skill-item mb-4 p-2">
+          <h5>JAVASCRIPT</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary skill-bar"
+              role="progressbar"
+              style="width: 0%"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              70%
+            </div>
+          </div>
+        </div>
+        <div class="skill-item mb-4 p-2">
+          <h5>REACT JS</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary skill-bar"
+              role="progressbar"
+              style="width: 0%"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              70%
+            </div>
+          </div>
+        </div>
+        <div class="skill-item mb-4 p-2">
+          <h5>NEXT JS</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary skill-bar"
+              role="progressbar"
+              style="width: 0%"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              60%
+            </div>
+          </div>
+        </div>
+        <div class="skill-item mb-4 p-2">
+          <h5>VUE JS</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary skill-bar"
+              role="progressbar"
+              style="width: 0%"
+              aria-valuenow="40"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              40%
+            </div>
+          </div>
+        </div>
+        <div class="skill-item mb-3">
+          <h5>LARAVEL</h5>
+          <div class="progress">
+            <div
+              class="progress-bar bg-primary skill-bar"
+              role="progressbar"
+              style="width: 0%"
+              aria-valuenow="65"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              65%
+            </div>
+          </div>
+        </div>
+        <!-- Add more skills -->
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Projects</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card project-card">
+              <img src="./1.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">E-commerce & Dashboard Website</h5>
+                <p class="card-text">Built with Laravel and Bootstrap (code)</p>
+                <a href="">https://github.com/thorsophanith/example</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card project-card">
+              <img src="./2.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">Website Company</h5>
+                <p class="card-text">
+                  Built with React js and Boot Tailwind CSS
+                </p>
+                <a href="">https://sophonspace.vercel.app/</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add more projects -->
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="text-center mb-5">
+        <a href="./CV.pdf" download class="btn btn-primary btn-lg">
+          <i class="fas fa-download me-2"></i>Download Full CV
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact Me</h2>
+        <form
+          action="https://formsubmit.co/mphanit787@gmail.com"
+          method="POST"
+        >
+          <div class="mb-3">
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="subject"
+              name="subject"
+              class="form-control"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              rows="5"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+          <button type="submit" class="btn btn-primary mt-4">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <div class="social-links mb-3">
+          <a href="#" class="text-white mx-3"><i class="fab fa-github"></i></a>
+          <a href="#" class="text-white mx-3"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="#" class="text-white mx-3"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 Thor Sophanith. All rights reserved</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/your-unique-code.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
+    <script>
+      // Smooth scrolling
+      $(document).ready(function () {
+        $('a[href^="#"]').on("click", function (e) {
+          e.preventDefault();
+          let target = $(this.hash);
+          $("html, body").animate(
+            {
+              scrollTop: target.offset().top - 70,
+            },
+            1000
+          );
+        });
+      });
+
+      // Skill bar animation
+      $(window).scroll(function () {
+        $(".skill-bar").each(function () {
+          let position = $(this).offset().top;
+          let windowHeight = $(window).height();
+          let scrollTop = $(window).scrollTop();
+
+          if (position < scrollTop + windowHeight - 100) {
+            $(this).css("width", $(this).attr("aria-valuenow") + "%");
+          }
+        });
+      });
+
+      // Nav active state
+      $(window).scroll(function () {
+        let scrollPos = $(document).scrollTop();
+        $("nav a").each(function () {
+          let currLink = $(this);
+          let refElement = $(currLink.attr("href"));
+          if (
+            refElement.position().top <= scrollPos + 100 &&
+            refElement.position().top + refElement.height() > scrollPos + 100
+          ) {
+            $("nav a").removeClass("active");
+            currLink.addClass("active");
+          }
+        });
+      });
+
+      // Form submission
+      $("#contactForm").submit(function (e) {
+        e.preventDefault();
+        alert("Thank you for your message! I will respond shortly.");
+        this.reset();
+      });
+    </script>
+  </body>
+</html>
