@@ -23,7 +23,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Thor Sophanith</a>
+        <a class="navbar-brand" href="./">Thor Sophanith</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,7 +32,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse p-1" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item">
@@ -56,16 +56,28 @@
     </nav>
 
     <!-- Hero Section -->
-    <section
-      id="home"
-      style="background-image: url(./image/bg.jpg)"
-      class="hero-section text-white d-flex align-items-center"
-    >
-      <div class="container text-center animate__animated animate__fadeIn">
+      <section
+        id="home"
+        style="background-image: url(./image/bg.jpg)"
+        class="hero-section text-white d-flex align-items-center"
+      >
+        <div class="container text-center animate__animated animate__fadeIn">
+          <h1 class="display-4">Front-End Developer</h1>
+          <p class="lead">Creating beautiful and responsive web experiences</p>
+        </div>
+      </section>
+
+    <!-- <section id="home" class="hero-section text-white d-flex align-items-center position-relative">
+      <video autoplay muted loop class="w-100 h-100 position-absolute" style="object-fit: cover;">
+        <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    
+      <div class="container text-center animate__animated animate__fadeIn animate__delay-1s position-relative" style="z-index: 1;">
         <h1 class="display-4">Front-End Developer</h1>
         <p class="lead">Creating beautiful and responsive web experiences</p>
       </div>
-    </section>
+    </section> -->
 
     <!-- About Section -->
     <section id="about" class="py-5 bg-light">
@@ -233,11 +245,11 @@
               class="progress-bar bg-primary skill-bar"
               role="progressbar"
               style="width: 0%"
-              aria-valuenow="65"
+              aria-valuenow="70"
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              65%
+              70%
             </div>
           </div>
         </div>
@@ -272,6 +284,18 @@
               </div>
             </div>
           </div>
+          <div class="col-md-4 mb-4">
+            <div class="card project-card">
+              <img src="./image/3.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">User & Admin Dashboard</h5>
+                <p class="card-text">
+                  Built with Laravel PHP and Bootstrap-5 (code)
+                </p>
+                <a href="">https://github.com/thorsophanith/test-app</a>
+              </div>
+            </div>
+          </div>
           <!-- Add more projects -->
         </div>
       </div>
@@ -298,6 +322,11 @@
           src="https://www.youtube.com/embed/kJ3Ep5hmwx0?si=di_tiHmMMPZukf1B"
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <iframe class="rounded mx-auto d-block py-4"
+          src="https://www.youtube.com/embed/iJV7ixowKOQ?si=LDqLJnw4Pl8sX7mE"
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
 
